@@ -1,0 +1,15 @@
+.cell {
+  width: 100px;
+  height: 100px;
+  padding: 0;
+  background-color: #fff;
+  border: 1px black solid;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.isPressed,
+.isDisabled {
+  font-size: 40px;
+  pointer-events: none;
+}
